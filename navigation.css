@@ -1,0 +1,54 @@
+
+nav {
+    background-color: black;
+    height: 40px;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    margin-top: 5px;
+
+}
+
+.logo p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'ralewaybold', Tahoma, Arial, sans-serif ;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.logo p span {
+    color:#24baa0;
+    font-family: 'ralewaybold', Tahoma, Arial, sans-serif ;
+}
+.menu {
+    float:right;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    line-height: 20px;
+    font-family: 'ralewaybold', Tahoma, Arial, sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
